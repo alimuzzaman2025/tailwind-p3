@@ -1,22 +1,17 @@
 import One from "./assets/one.jpg"
 import Two from "./assets/two.jpg"
 import Three from "./assets/three.jpg"
-import Four from "./assets/four.jpg"
-import Five from "./assets/five.jpg"
 import Slider from "react-slick";
 import { MdNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
 import { ReactTyped } from "react-typed";
-import Pone from "./assets/p (1).jpg"
-import Ptwo from "./assets/p (2).jpg"
-import Pthree from "./assets/p (3).jpg"
-import Pfour from "./assets/p (4).jpg"
-import Pfive from "./assets/p (5).jpg"
 import { useEffect, useState } from "react";
 import axios from "axios";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
+  console.log("Ok");
+  
   return (
     <div
       className="absolute top-[50%] right-8 z-[1] bg-[red] h-[40px] w-[40px] text-center leading-[40px] rounded-full text-[#fff] translate-y-[-50%] cursor-pointer hover:bg-[green]"
